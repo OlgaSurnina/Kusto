@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Roboto&display=swap');
+@import url(./blocs/body/body.css);
+@import url(./blocs/title/title.css);
+@import url(./blocs/profile/pofile.css);
+@import url(./blocs/profile/__img/profile__img.css);
+@import url(./blocs/profile/__btn/profile__btn.css);
+@import url(./blocs/profile/__btn-add/profile__btn-add.css);
+@import url(./blocs/profile/__btn-edit/profile__btn-edit.css);
+@import url(./blocs/profile/__text/profile__text.css);
+@import url(./blocs/profile/__info/profile__info.css);
+@import url(./blocs/elements/elements.css);
+@import url(./blocs/element/element.css);
+@import url(./blocs/element/__img/element__img.css);
+@import url(./blocs/element/__info/element__info.css);
+@import url(./blocs/footer/footer.css);
+

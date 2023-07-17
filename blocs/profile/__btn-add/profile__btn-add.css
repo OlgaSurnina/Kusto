@@ -1,0 +1,15 @@
+.profile__btn-add{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4%;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.profile__btn-add:hover{
+    color: rgb(111, 107, 107);
+    border: 2px solid rgb(111, 107, 107);
+    cursor: pointer;
+}

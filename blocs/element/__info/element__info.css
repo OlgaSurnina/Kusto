@@ -1,0 +1,35 @@
+.element__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+
+.element__info h6{
+color: black;
+font-size: 24px;
+line-height: 29px;
+margin-block-start: 0;
+margin-block-end: 0;
+padding: 10px 20px;
+
+}
+.element__info input{
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+    
+}
+.element__info img{
+    content: url(../../../img/heart.svg);
+    cursor: pointer;
+}
+.element__info img:hover{
+    content: url(../../../img/heart-hover.svg);
+    cursor: pointer;
+}
+.element__info img:active{
+    content: url(../../../img/heart-after.svg);
+    cursor: pointer;
+}

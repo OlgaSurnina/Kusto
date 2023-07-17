@@ -1,0 +1,18 @@
+.profile__btn-edit{
+    background-image: url(../../../img/Edit\ Button.svg);
+    width: 24px;
+height: 24px;
+background-color: black;
+border: 1px solid white;
+border-radius: 4%;
+cursor: pointer;
+}
+.profile__btn-edit:hover{
+    background-image: url(../../../img/Edit\ Button-hover.svg);
+    width: 24px;
+height: 24px;
+background-color: black;
+border: 1px solid rgb(139, 135, 135);
+border-radius: 4%;
+cursor: pointer;
+}
