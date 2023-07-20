@@ -13,3 +13,11 @@
     border: 2px solid rgb(111, 107, 107);
     cursor: pointer;
 }
+@media screen  and (max-width:320px){
+    .profile__btn-add{
+        position: absolute;
+        width: 281px;
+        top: 333px;
+        left: 20px;
+    } 
+}

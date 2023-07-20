@@ -15,4 +15,20 @@
     .title{
         width: 282px;
     }
+    .title h1{
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-size: 27px;
+    }
+    .title h5{
+        
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-size: 14px;
+
+    }
 }
