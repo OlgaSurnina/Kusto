@@ -6,3 +6,12 @@
 .popup__close img:active{
     opacity: 60%;
 }
+@media screen  and (max-width:320px){
+    .popup__close{
+        left: 237px;
+        top: -27px;
+    }  
+    .popup__close img{
+        height: 20px;
+    }
+}

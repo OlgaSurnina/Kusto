@@ -14,3 +14,8 @@
 .popup__form-btn:active{
     opacity: 80%;
 }
+@media screen  and (max-width:320px){
+    .popup__form-btn{
+        height: 45px;
+    }
+}
