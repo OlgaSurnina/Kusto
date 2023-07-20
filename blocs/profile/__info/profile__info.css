@@ -8,11 +8,7 @@
         align-items: center;
         justify-content: center;
         align-content: center;
-    }  
-}
-@media screen  and (max-width:320px){
-    .profile__info{
         position: relative;
         gap: 0px;
-    } 
+    }  
 }

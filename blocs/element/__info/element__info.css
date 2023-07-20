@@ -7,12 +7,12 @@
 
 
 .element__info h6{
-color: black;
-font-size: 24px;
-line-height: 29px;
-margin-block-start: 0;
-margin-block-end: 0;
-padding: 10px 20px;
+    color: black;
+    font-size: 24px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 10px 20px;
+    line-height: 29px;
 
 }
 .element__info input{
