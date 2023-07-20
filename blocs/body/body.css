@@ -3,7 +3,11 @@
     #000000;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    max-width: 1280px;
+    width: 880px;
     margin: 0 auto;
-
+}
+@media screen and (max-width:320px) {
+    .body{
+        width:282px;
+    }   
 }

@@ -13,4 +13,12 @@
 @import url(./blocs/element/__img/element__img.css);
 @import url(./blocs/element/__info/element__info.css);
 @import url(./blocs/footer/footer.css);
-
+@import url(./blocs/popup/popup.css);
+@import url(./blocs/popup/__body/popup__body.css);
+@import url(./blocs/popup/__content/popup__content.css);
+@import url(./blocs/popup/__form/popup__form.css);
+@import url(./blocs/popup/__form-title/popup__form-title.css);
+@import url(./blocs/popup/__close/popup__close.css);
+@import url(./blocs/popup/__form-content/popup__form-content.css);
+@import url(./blocs/popup/__form-input/popup__form-input.css);
+@import url(./blocs/popup/__form-btn/popup__form-btn.css);

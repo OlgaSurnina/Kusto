@@ -1,3 +1,9 @@
 .profile__img{
     clip-path:circle(49%);
 }
+@media screen  and (max-width:320px){
+    .profile__img{
+        height: 127px;
+    } 
+}
+

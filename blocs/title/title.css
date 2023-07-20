@@ -2,8 +2,7 @@
     display: flex;
     width: 880px;
     border-bottom: 1px solid #545454;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 0 auto
 }
 .title h1{
     letter-spacing: 2px;
@@ -11,4 +10,9 @@
 .title h5{
     font-weight: 100;
     letter-spacing: 1px;
+}
+@media screen  and (max-width:320px){
+    .title{
+        width: 282px;
+    }
 }

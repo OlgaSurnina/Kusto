@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="profile__btn">
-          <button class="profile__btn-edit"></button>
+          <a href="#popup"><button class="profile__btn-edit"></button></a>
           <button class="profile__btn-add">+</button>
         </div>
       </section>
@@ -31,8 +31,8 @@
           <div class="element__info">
             <h6>Карачаевск</h6>
             <form action="like">
-              <label for="like"
-                ><input type="checkbox" name="like" /><img
+              <label for="like1"
+                ><input type="checkbox" id="like1" /><img
                   class="like"
                   src="./img/heart.svg"
                   alt=""
@@ -45,8 +45,8 @@
           <div class="element__info">
             <h6>Гора Эльбрус</h6>
             <form action="like">
-              <label for="like"
-                ><input type="checkbox" name="like" /><img
+              <label for="like2"
+                ><input type="checkbox" id="like2" /><img
                   class="like"
                   src="./img/heart.svg"
                   alt=""
@@ -59,8 +59,8 @@
           <div class="element__info">
             <h6>Домбай</h6>
             <form action="like">
-              <label for="like"
-                ><input type="checkbox" name="like" /><img
+              <label for="like3"
+                ><input type="checkbox" id="like3" /><img
                   class="like"
                   src="./img/heart.svg"
                   alt=""
@@ -73,8 +73,8 @@
           <div class="element__info">
             <h6>Гора Эльбрус</h6>
             <form action="like">
-              <label for="like"
-                ><input type="checkbox" name="like" /><img
+              <label for="like4"
+                ><input type="checkbox" id="like4" /><img
                   class="like"
                   src="./img/heart.svg"
                   alt=""
@@ -87,11 +87,11 @@
           <div class="element__info">
             <h6>Домбай</h6>
             <form action="like">
-              <label for="like"
-                ><input type="checkbox" name="like" /><img
+              <label for="like5"
+                ><input type="checkbox" id="like5" /><img
                   class="like"
                   src="./img/heart.svg"
-                  alt=""
+                  alt="like"
               /></label>
             </form>
           </div>
@@ -101,8 +101,8 @@
           <div class="element__info">
             <h6>Карачаево-Ч...</h6>
             <form action="like">
-              <label for="like"
-                ><input type="checkbox" name="like" /><img
+              <label for="like6"
+                ><input type="checkbox" id="like6" /><img
                   class="like"
                   src="./img/heart.svg"
                   alt="like"
@@ -113,5 +113,34 @@
       </section>
     </main>
     <footer class="footer">© 2023 Mesto Russia</footer>
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="" class="popup__close"
+            ><img src="./img/Close Icon.svg" alt="close"
+          /></a>
+          <form class="popup__form">
+            <h4 class="popup__form-title">Редактировать профиль</h4>
+            <div class="popup__form-content">
+              <label class="popup__form-label" for="name"></label>
+              <input
+                class="popup__form-input"
+                type="text"
+                id="name"
+                placeholder="Имя и фамилия"
+              />
+              <label class="popup__form-label" for="status"></label>
+              <input
+                class="popup__form-input"
+                type="text"
+                id="status"
+                placeholder="Статус"
+              />
+              <button class="popup__form-btn">Сохранить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
