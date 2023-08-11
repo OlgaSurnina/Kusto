@@ -59,11 +59,6 @@ function logAge() {
     }
 }
 
-function logAge(a, b) {
-    let c = sayAge()
-    console.log(`${a} имеет возраст ${b} ${c}`)
-}
-logAge(`Иван`, 44)
 
 
 
