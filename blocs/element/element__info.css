@@ -22,15 +22,15 @@
     
 }
 .element__info img{
-    content: 'url(../../img/heart.svg)';
+    content: url('../../img/heart.svg');
     cursor: pointer;
 }
 .element__info img:hover{
-    content: 'url(../../img/heart-hover.svg)';
+    content: url('../../img/heart-hover.svg');
     cursor: pointer;
 }
 .element__info img:active{
-    content: 'url(../../img/heart-after.svg)';
+    content: url('../../img/heart-after.svg');
     cursor: pointer;
 }
 @media screen  and (max-width:320px){
